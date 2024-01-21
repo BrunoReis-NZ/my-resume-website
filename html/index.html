@@ -2,8 +2,8 @@
 <html lang="en-US">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Mugi - Personal Portfolio & Resume HTML Template</title>
-	<meta name="description" content="Mugi - Personal Portfolio & Resume HTML Template">
+	<title>Bruno Reis - Personal Portfolio & Resume</title>
+	<meta name="description" content="Bruno Reis - Personal Portfolio & Resume">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="https://via.placeholder.com/32x32/9013FE/FFF">
 
@@ -21,7 +21,7 @@
 
 </head>
 
-<body>
+<body class="dark">
 
 <!-- Preloader -->
 <div id="preloader">
@@ -52,7 +52,8 @@
 		</div>
 		<!-- logo text -->
 		<h2 class="site-title">
-			<a href="index.html">Mugi Doe</a>
+			<!-- <a href="#">Bruno Reis</a> -->
+			<h3>Bruno Reis</h3>
 		</h2>
 	</div>
 </header>
@@ -63,23 +64,26 @@
 	<!-- logo image -->
 	<div class="site-logo">
 		<a href="index.html">
-			<img src="https://via.placeholder.com/120x120/9013FE/FFF" alt="Mugi" class="circle" />
+			<img src="../images/Capture.PNG" alt="Mugi" class="circle" />
 		</a>
 	</div>
 	<!-- logo text -->
 	<h2 class="site-title mb-3 mt-4">
-		<a href="index.html">Mugi Doe</a>
+		<!-- <a href="#">Bruno Reis</a> -->
+		<h3>Bruno Reis</h3>
+		<p>Software Tester</p>
+
 	</h2>
 	
 	<!-- main menu -->
 	<nav>
 		<ul class="vertical-menu mt-4 scrollspy">
 			<li class="active"><a href="#home">Home</a></li>
-			<li><a href="#services">Services</a></li>
+			<li><a href="#works">Resume</a></li>
 			<li><a href="#experience">Experience</a></li>
-			<li><a href="#works">Works</a></li>
+			<li><a href="#services">Projects</a></li>
 			<li><a href="#testimonials">Testimonials</a></li>
-			<li><a href="#blog">Blog</a></li>
+			<!-- <li><a href="#blog">Blog</a></li> -->
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
@@ -88,13 +92,13 @@
 	<div class="footer">
 		<!-- social icons -->
 		<ul class="social-icons list-inline">
-			<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-			<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-			<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-			<li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+			<li class="list-inline-item"><a href="https://www.linkedin.com/in/brunoreisnz" target=”_blank”><i class="fab fa-linkedin"></i></a></li>
+			<!-- <li class="list-inline-item"><a href="https://www.facebook.com/brunoudv/"><i class="fab fa-facebook-f"></i></a></li> -->
+			<li class="list-inline-item"><a href="https://github.com/BrunoReis-NZ" target=”_blank”><i class="fab fa-github"></i></a></li>
+			<!-- <li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li> -->
 		</ul>
 		<!-- copyright text -->
-		<span class="copyright">© 2019 Mugi Theme.</span>
+		<span class="copyright">© 2024 Bruno Reis.</span>
 	</div>
 
 </header>
@@ -108,13 +112,13 @@
 
 			<!-- call to action -->
 			<div class="cta">
-				<h1 class="font-black text-uppercase mb-5 mt-0">Hello,</h1>
-				<p class="mb-0">I am Mugi Doe, web developer from Melbourne, Australia. I have rich experience in web site design and building and customization, also I am good at wordpress.</p>
+				<h1 class="font-black text-uppercase mb-5 mt-0">Hello World,</h1>
+				<p class="mb-0">II am Bruno Reis, a dedicated Software Tester residing in New Zealand. Currently, I am pursuing post-graduate studies in Information Technology at the University of Auckland, with the aim of securing a position in the field of software testing.</p>
 				<!-- buttons -->
-				<div class="mt-5">
+				<!-- <div class="mt-5">
 					<a href="#" class="btn btn-default btn-animation mr-3">Portfolio</a>
-					<a href="#" class="btn btn-alt btn-animation">Hire me</a>
-				</div>
+					<a href="#" class="btn btn-alt-light btn-animation">Hire me</a>
+				</div> -->
 			</div>
 			
 			<!-- scroll down mouse wheel -->
@@ -129,90 +133,475 @@
 		
 	</section>
 	
-	<!-- section services -->
-	<section id="services">
+	<!-- section works -->
+	<section id="works">
 
 		<div class="container">
 			
 			<!-- section title -->
-			<h2 class="section-title font-black text-uppercase">Services</h2>
+			<h2 class="section-title font-black text-uppercase">Resume</h2>
 
-			<div class="spacer" data-height="100"></div>
+			<div class="spacer" data-height="90"></div>
+
+			<!-- portfolio filter (desktop) -->
+			<ul class="portfolio-filter list-inline">
+				<!-- <li class="current list-inline-item" data-filter="*">Career Objective</li> -->
+				<li class="list-inline-item" data-filter=".career">Career Objective</li>
+				<li class="list-inline-item" data-filter=".courses">IT & Software Testing Courses</li>
+				<li class="list-inline-item" data-filter=".skills">Skills</li>
+				<li class="list-inline-item" data-filter=".education">Education</li>
+				<li class="list-inline-item" data-filter=".work">Work Experience</li>
+				<li class="list-inline-item" data-filter=".personal">Personal History</li>
+			</ul>
 			
-			<div class="row">
-
-				<div class="col-md-4">
-					<!-- service box -->
-					<div class="service-box">
-						<span class="icon icon-globe-alt square"></span>
-						<h4 class="mb-4 mt-4">Development</h4>
-						<p class="mb-0">There are many variations of passages of Lorem Ipsum available</p>
-					</div>
-					<div class="spacer" data-height="50"></div>
+			<!-- portfolio filter (mobile) -->
+			<div class="pf-filter-wrapper">
+				<select class="portfolio-filter-mobile">
+					<!-- <option value="*">Career Objective</option> -->
+					<option value=".career">Career Objective</option>
+					<option value=".courses">IT & Software Testing Courses</option>
+					<option value=".skills">Skills</option>
+					<option value=".education">Education</option>
+					<option value=".work">Work History</option>
+					<option value=".personal">Personal History</option>
+				</select>
+			</div>
+			
+			<!-- portolio wrapper -->
+			<div class="row portfolio-wrapper">
+				
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item career">
+					<!-- <a href="work-single.html"> -->
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title"></h4>
+								<span class="term"></span>
+							</div>
+							<div class="thumb">
+								<!-- <img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" /> -->
+								<p id="career">CAREER OBJECTIVE<br><br>Committed and diligent professional with a strong work ethic, exemplary communication skills, and proficient time management abilities. Demonstrates a collaborative team-oriented attitude and currently in the process of transitioning to a career in Information Technology. Committed to acquiring practical experience and expanding knowledge through dedicated study. Completed over 400 hours of IT courses with a focus on Quality Assurance and Development. Capable of efficiently completing tasks both independently and within a team framework. Known for dependability and reliability, and enthusiastic about continuous learning and professional growth. Fully dedicated to achieving success and aspiring to excel as a top-tier IT professional.</p>
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
 				</div>
 
-				<div class="col-md-4">
-					<!-- service box -->
-					<div class="service-box">
-						<span class="icon icon-bulb square"></span>
-						<h4 class="mb-4 mt-4">UI/UX Design</h4>
-						<p class="mb-0">There are many variations of passages of Lorem Ipsum available</p>
-					</div>
-					<div class="spacer" data-height="50"></div>
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item courses">
+					<!-- <a href="work-single.html"> -->
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title"></h4>
+								<span class="term"></span>
+							</div>
+							<div class="thumb">
+								<!-- <img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" /> -->
+								<p id="career">
+									IT & SOFTWARE TESTING COURSES<br><br>
+									MAIN IT COURSE:<br>
+									→ Postgraduate Certificate in Information Technology (University of Auckland).<br>
+									<!-- *Programming With Web Technologies (Completed).<br>
+									*Programing for Industry (Ongoing).<br> -->
+									<br>
+
+									SOFWARE TESTING COURSES:<br>
+									→ Complete Software Tester Course 62 Hours (Global Tester Community).<br>
+									→ Manual Software Testing Complete Course 8 hours (Udemy).<br>
+									→ Practical Java Testing with JUnit 5 for complete beginners 5 Hours (Udemy).<br>
+									<br>
+
+									SOFTWARE DEVELOPMENT COURSES:<br>
+									→ Java Basic 40 Hours (Curso em Video).<br>
+									→ Java OOP 40 Hours (Curso em Video).<br>
+									→ Learn Java (Codecademy).<br>
+									→ Java Object-Oriented Programming Course (Codecademy).<br>
+									→ Non-Technical Life Skills Course (Codecademy).<br>
+									→ Learn JavaScript Course (Codecademy).<br>
+									→ Learn C Course (Codecademy).<br>
+									→ Code Foundations Skills Path (Codecademy).<br>
+									→ Computational Algorithm 40 Hours (Curso em Video).<br>
+									→ Programming Logic From Zero 7 Hours (Udemy).<br>
+								</p>
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+								<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item skills">
+					<!-- <a href="work-single.html"> -->
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title"></h4>
+								<span class="term"></span>
+							</div>
+							<div class="thumb">
+								<!-- <img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" /> -->
+								<p id="career">
+								SKILLS<br><br>
+								HARD SKILLS:<br>
+								→ Manual and Automated Testing.<br>
+								→ Good knowledge of Software testing.<br>
+								techniques covered in the ISTQB syllabus.<br>
+								→ Familiar with Agile software methodologies<br>
+								→ Junior level Bug Reporting & Test Case Writing skills<br>
+								→ Junior level Test Reporting skills (Test Plan writing-Test Progress & Summary Report writing).<br>
+								<br>
+
+								SOFT SKILLS:<br>
+								→ Focus on quality.<br>
+								→ Passionate about learning
+								→ Team player.<br>
+								→ Good Communication skills.<br>
+								→ Rational Analysis & Logical Thinking.<br>
+								→ Great Attitude.<br>
+								→ Creativity.<br>
+								→ Initiative Taking.<br>
+								<br>
+
+								TOOLS:<br>
+								→ Tools: Automated testing with Selenium.<br>
+								→ Plan, track, and manage tests with JIRA/Trello.<br>
+								→ API testing with Postman.<br>
+								→ Unit Testing with JUnit.<br>
+								→ Performance Testing with JMeter.<br>
+								→ Version Control with GitHub.<br>
+								→ IDE Visuel Studio Code & IntelliJ.<br>
+								<br>
+
+								PROGRAMMING LANGUAGES:<br>
+								→ Junior level Java.<br>
+								→ Junior level JavaScript.<br>
+								<br>
+
+								</p>
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
 				</div>
 
-				<div class="col-md-4">
-					<!-- service box -->
-					<div class="service-box">
-						<span class="icon icon-graph square"></span>
-						<h4 class="mb-4 mt-4">SEO</h4>
-						<p class="mb-0">There are many variations of passages of Lorem Ipsum available</p>
-					</div>
-					<div class="spacer" data-height="50"></div>
+												<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item education">
+					<!-- <a href="work-single.html"> -->
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title"></h4>
+								<span class="term"></span>
+							</div>
+							<div class="thumb">
+								<!-- <img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" /> -->
+								<p id="career">
+									EDUCATION<br><br>
+									→ Jul 2023 Postgraduate Certificate In Information Technology University of Auckland, NZ (Ongoing).<br>
+									→ Jul 2022 Advanced Certificate In Psychology and Counseling The Career Academy, NZ.<br>
+									→ Jan 2010 Bachelor In Law Universidade Catolica de Salvador, BR.<br>
+								<br>
+
+								</p>
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
 				</div>
 
-				<div class="col-md-4">
-					<!-- service box -->
-					<div class="service-box">
-						<span class="icon icon-direction square"></span>
-						<h4 class="mb-4 mt-4">Advertising</h4>
-						<p class="mb-0">There are many variations of passages of Lorem Ipsum available</p>
-					</div>
-					<div class="spacer d-md-none d-lg-none" data-height="50"></div>
+
+												<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item work">
+					<!-- <a href="work-single.html"> -->
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title"></h4>
+								<span class="term"></span>
+							</div>
+							<div class="thumb">
+								<!-- <img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" /> -->
+								<p id="career">
+									WORK EXPERIENCE<br><br>
+									→ Customer Service Adviser (Bonds & Tenancy)<br>
+											MBIE, NZ - Feb 2023 - Present<br>
+									* Gained solid understanding of the Residential Tenancy Act 1986.<br>
+									* Developed strong customer service skills dealing with a diverse range of customers.<br>
+									* Contributed to the effective functioning of the Customer branch.<br>
+									<br>
+									→ Chiropractic Assistant<br>
+											Chirobalance, NZ - Mar 2020 – Feb 2023<br>
+									Demonstrated organizational and multitasking abilities in a healthcare setting.<br>
+									<br>
+									→ Senior Lawyer and Associate<br>
+											Reis & Cerqueira, BR - Jun 2012 - Sep 2016<br>
+									Accumulated 7 years of legal experience in a legal organization.<br>
+									Advocated for clients in court, showcasing strong analytical and communication skills.<br>
+									<br>
+									→ Tax Coordinator Lawyer<br>
+											Santos e Souza, BR - Jan 2011 - Jun 2012<br>
+									Specialized in tax law, contributing to business planning and risk management.<br>
+									<br>
+									→ Intern Public Defender Assistant<br>
+											PD, BR - Jan 2008 - Dec 2011<br>
+									Acquired foundational legal experience in criminal defense.<br>
+									
+
+								</p>
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
 				</div>
 
-				<div class="col-md-4">
-					<!-- service box -->
-					<div class="service-box">
-						<span class="icon icon-pencil square"></span>
-						<h4 class="mb-4 mt-4">Copy Write</h4>
-						<p class="mb-0">There are many variations of passages of Lorem Ipsum available</p>
-					</div>
-					<div class="spacer d-md-none d-lg-none" data-height="50"></div>
-				</div>
 
-				<div class="col-md-4">
-					<!-- service box -->
-					<div class="service-box">
-						<span class="icon icon-earphones square"></span>
-						<h4 class="mb-4 mt-4">Support</h4>
-						<p class="mb-0">There are many variations of passages of Lorem Ipsum available</p>
-					</div>
+								<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item personal">
+					<!-- <a href="work-single.html"> -->
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title"></h4>
+								<span class="term"></span>
+							</div>
+							<div class="thumb">
+								<!-- <img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" /> -->
+								<p id="career">
+									PERSONAL HISTORY<br><br>
+									Hello, I'm Bruno Reis, a dedicated professional with a diverse background and a passion for continuous learning. Originally from Brazil, I graduated in Law and practiced as an attorney for seven fulfilling years. During this time, I cultivated valuable skills in legal analysis, client communication, and problem-solving.<br><br>
+
+									Driven by a desire for new challenges and experiences, I embarked on a journey that led me to Australia. There, I embraced change and discovered a love for the dynamic field of Information Technology. Eager to expand my knowledge and skill set, I am currently pursuing a post-graduation degree in Information Technology at the University of Auckland in New Zealand.<br><br>
+									
+									In my current role as a Customer Advisor at the Ministry of Business, Innovation, and Employment, I contribute to the government sector by providing assistance and guidance to individuals navigating the complexities of tenancy & bonds regulations. This experience has honed my interpersonal and communication skills, enabling me to effectively assist and support others.<br><br>
+									
+									Outside of the professional realm, my greatest joys come from spending quality time with my family. As a proud husband and father of two beautiful girls, Cora and Lila, I cherish moments of togetherness. Our shared love for bushwalking allows us to explore the breathtaking landscapes of New Zealand, fostering a deep connection with nature.<br><br>
+									
+									In my free time, I am an avid reader, always eager to delve into new topics and expand my horizons. Additionally, I have a keen interest in movies, finding inspiration and entertainment in cinematic storytelling.<br><br>
+									
+									My journey, from practicing law in Brazil to navigating the challenges of the government sector in New Zealand, reflects my adaptability and commitment to personal and professional growth. I bring a unique blend of legal expertise, customer service skills, and a burgeoning IT knowledge base to any endeavor I undertake. Eager to contribute my diverse skill set to innovative projects, I am excited about the opportunities that lie ahead.
+																	
+								<br>
+
+								</p>
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
 				</div>
+				
+				<!-- portfolio item -->
+				<!-- <div class="col-md-4 col-sm-6 grid-item creative design">
+					<a href="work-single.html">
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title">Apple USB</h4>
+								<span class="term">Creative, Design</span>
+							</div>
+							<div class="thumb">
+								<img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div> -->
+
+				<!-- portfolio item -->
+				<!-- <div class="col-md-4 col-sm-6 grid-item branding">
+					<a href="work-single.html">
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title">Work Space</h4>
+								<span class="term">Branding</span>
+							</div>
+							<div class="thumb">
+								<img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div> -->
+
+				<!-- portfolio item -->
+				<!-- <div class="col-md-4 col-sm-6 grid-item creative">
+					<a href="work-single.html">
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title">Creative Bulb</h4>
+								<span class="term">Creative</span>
+							</div>
+							<div class="thumb">
+								<img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div> -->
+
+				<!-- portfolio item -->
+				<!-- <div class="col-md-4 col-sm-6 grid-item art branding">
+					<a href="work-single.html">
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title">iPhone 8</h4>
+								<span class="term">Art, Branding</span>
+							</div>
+							<div class="thumb">
+								<img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div> -->
+
+				<!-- portfolio item -->
+				<!-- <div class="col-md-4 col-sm-6 grid-item creative design">
+					<a href="work-single.html">
+						<div class="portfolio-item">
+							<div class="details">
+								<h4 class="title">Minimal Art</h4>
+								<span class="term">Design, Creative</span>
+							</div>
+							<div class="thumb">
+								<img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div> -->
 
 			</div>
+			
+			<!-- more button -->
+			<!-- <div class="load-more text-center mt-4">
+				<a href="javascript:" class="btn btn-default btn-animation"><i class="fas fa-spinner"></i> Load more</a>
+				<!-- numbered pagination (hidden for infinite scroll) -->
+				<!-- <ul class="portfolio-pagination list-inline d-none">
+					<li class="list-inline-item">1</li>
+					<li class="list-inline-item"><a href="works-2.html">2</a></li>
+				</ul> -->
+			<!-- </div> --> 
 
 		</div>
-		
+
 	</section>
-	
+			<!-- section experience -->
+			<section id="experience">
+
+				<div class="container">
+					
+					<!-- section title -->
+					<h2 class="section-title font-black text-uppercase">Experience</h2>
+		
+					<div class="spacer" data-height="100"></div>
+					
+					<div class="row">
+		
+						<div class="col-md-6">
+							
+							<!-- timeline wrapper -->
+							<div class="timeline">
+		
+								<!-- timeline item -->
+								<div class="timeline-container">
+									<div class="content">
+										<span class="time">Feb 2023 - Present</span>
+										<h4 class="title">MBIE</h4>
+										<h6>Customer Service Advisor</h6>
+										<p>Accomplished customer service advisor with a comprehensive grasp of the Residential Tenancy Act 1986, adeptly utilizing this knowledge to provide exceptional support to a diverse clientele. Demonstrated proficiency in fostering positive customer relationships, contributing significantly to the seamless operation of the Customer branch.</p>
+									</div>
+								</div>
+		
+								<!-- timeline item -->
+								<div class="timeline-container">
+									<div class="content">
+										<span class="time">2020 - 2023</span>
+										<h4 class="title">CHIROBALANCE</h4>
+										<h6>Chiropractor Assistent</h6>
+										<p>Proven track record of exemplary organizational and multitasking skills in a dynamic healthcare environment, ensuring efficient and seamless operations.</p>
+									</div>
+								</div>
+		
+								<!-- timeline item -->
+								<!-- <div class="timeline-container">
+									<div class="content">
+										<span class="time">2012 - 2016</span>
+										<h4 class="title">REIS & CERQUEIRA ASSOCIATED LAWYERS</h4>
+										<h6>Senior Lawyer and Associate</h6>
+										<p>Demonstrated prowess in legal advocacy with a solid seven-year track record in a legal organization, highlighted by courtroom representation and adept utilization of analytical and communication skills. Additionally, acquired comprehensive business management skills, showcasing a holistic understanding of organizational operations.</p>
+									</div>
+								</div> -->
+		
+								<!-- main line -->
+								<span class="line"></span>
+		
+							</div>
+		
+						</div>
+		
+						<div class="col-md-6">
+							
+							<!-- responsive spacer -->
+							<div class="spacer d-md-none d-lg-none" data-height="100"></div>
+		
+							<!-- timeline wrapper -->
+							<div class="timeline">
+
+								<!-- timeline item -->
+								<div class="timeline-container">
+									<div class="content">
+										<span class="time">2012 - 2016</span>
+										<h4 class="title">REIS & CERQUEIRA ASSOCIATED LAWYERS</h4>
+										<h6>Senior Lawyer and Associate</h6>
+										<p>Demonstrated prowess in legal advocacy with a solid seven-year track record in a legal organization, highlighted by courtroom representation and adept utilization of analytical and communication skills. Additionally, acquired comprehensive business management skills, showcasing a holistic understanding of organizational operations.</p>
+									</div>
+								</div>
+									
+		
+								<!-- timeline item -->
+								<div class="timeline-container">
+									<div class="content">
+										<span class="time">2011 - 2012</span>
+										<h4 class="title">SANTOS & SOUZA LAW FIRM</h4>
+										<h6>Tax Coordinator Lawyer</h6>
+										<p>Dedicated tax law professional with expertise in guiding businesses through strategic planning and risk management to optimize financial outcomes and ensure compliance in a dynamic regulatory environment</p>
+									</div>
+								</div>
+		
+								<!-- timeline item -->
+								<div class="timeline-container">
+									<div class="content">
+										<span class="time">2008 - 2011</span>
+										<h4 class="title">PUBLIC DEFENSE SERVICE</h4>
+										<h6>Public Defender Assistent (Internship)</h6>
+										<p>Developed a solid foundation in criminal defense through hands-on experience, demonstrating a comprehensive understanding of legal principles and effective advocacy in defense cases.</p>
+									</div>
+								</div>
+		
+								<!-- timeline item -->
+								<!-- <div class="timeline-container">
+									<div class="content">
+										<span class="time">2013 - 2009</span>
+										<h4 class="title">Honours Degree</h4>
+										<h6>Customer Service Advisor</h6>
+										<p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+									</div>
+								</div> -->
+		
+								<!-- main line -->
+								<span class="line"></span>
+		
+							</div>
+		
+						</div>
+		
+					</div>
+		
+				</div>
+				
+			</section>
 	<!-- section skills -->
 	<section id="skills">
 
 		<div class="container">
 			
 			<!-- section title -->
-			<h2 class="section-title font-black text-uppercase">Skills</h2>
+			<h2 class="section-title font-black text-uppercase">Hard Skills</h2>
 
 			<div class="spacer" data-height="100"></div>
 			
@@ -222,7 +611,79 @@
 					<!-- skill item -->
 					<div class="skill-item">
 						<div class="skill-info clearfix">
-							<h4 class="float-left mb-4 mt-0">Coding</h4>
+							<h4 class="float-left mb-4 mt-0">Manual and Automated Testing Technics </h4>
+							<span class="float-right">60%</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60">
+							</div>
+						</div>
+						<div class="spacer" data-height="50"></div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<!-- skill item -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<h4 class="float-left mb-4 mt-0">Software Testing Lifecycle & ISTQB Syllabus</h4>
+							<span class="float-right">80%</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">
+							</div>
+						</div>
+						<div class="spacer" data-height="50"></div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<!-- skill item -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<h4 class="float-left mb-4 mt-0">Bug Reporting & Test Case Writing</h4>
+							<span class="float-right">60%</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60">
+							</div>
+						</div>
+						<div class="spacer d-md-none d-lg-none" data-height="50"></div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<!-- skill item -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<h4 class="float-left mb-4 mt-0">Coding (JavaScript & Java)</h4>
+							<span class="float-right">65%</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65">
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<br>
+			<br>
+			<br>
+
+			<!-- section title -->
+			<h2 class="section-title font-black text-uppercase">Soft Skills</h2>
+
+			<div class="spacer" data-height="100"></div>
+			
+			<div class="row">
+
+				<div class="col-md-6">
+					<!-- skill item -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<h4 class="float-left mb-4 mt-0">Hability to learn new skills</h4>
 							<span class="float-right">90%</span>
 						</div>
 						<div class="progress">
@@ -237,11 +698,11 @@
 					<!-- skill item -->
 					<div class="skill-item">
 						<div class="skill-info clearfix">
-							<h4 class="float-left mb-4 mt-0">WordPress</h4>
-							<span class="float-right">75%</span>
+							<h4 class="float-left mb-4 mt-0">Commitment and Dedication</h4>
+							<span class="float-right">99%</span>
 						</div>
 						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75">
+							<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="99">
 							</div>
 						</div>
 						<div class="spacer" data-height="50"></div>
@@ -252,7 +713,8 @@
 					<!-- skill item -->
 					<div class="skill-item">
 						<div class="skill-info clearfix">
-							<h4 class="float-left mb-4 mt-0">Sketch</h4>
+							<h4 class="float-left mb-4 mt-0">Rational Analysis &
+								Logical Thinking (Problem Solving)</h4>
 							<span class="float-right">85%</span>
 						</div>
 						<div class="progress">
@@ -267,11 +729,11 @@
 					<!-- skill item -->
 					<div class="skill-item">
 						<div class="skill-info clearfix">
-							<h4 class="float-left mb-4 mt-0">jQuery</h4>
-							<span class="float-right">88%</span>
+							<h4 class="float-left mb-4 mt-0">Communication Skills, Attitude, Team Player, Initiative Taking...</h4>
+							<span class="float-right">90%</span>
 						</div>
 						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="88">
+							<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
 							</div>
 						</div>
 					</div>
@@ -282,99 +744,78 @@
 		</div>
 		
 	</section>
-	
-	<!-- section experience -->
-	<section id="experience">
+	<!-- section services -->
+	<section id="services">
 
 		<div class="container">
 			
 			<!-- section title -->
-			<h2 class="section-title font-black text-uppercase">Experience</h2>
+			<h2 class="section-title font-black text-uppercase">Projects</h2>
+			<h5> Some projects that was fully implemented by me, using JavaScript, CSS and HTML</h5>
 
 			<div class="spacer" data-height="100"></div>
 			
 			<div class="row">
 
-				<div class="col-md-6">
-					
-					<!-- timeline wrapper -->
-					<div class="timeline">
-
-						<!-- timeline item -->
-						<div class="timeline-container">
-							<div class="content">
-								<span class="time">2019 - Present</span>
-								<h4 class="title">Academic Degree</h4>
-								<p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
-							</div>
-						</div>
-
-						<!-- timeline item -->
-						<div class="timeline-container">
-							<div class="content">
-								<span class="time">2017 - 2013</span>
-								<h4 class="title">Bachelor’s Degree</h4>
-								<p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
-							</div>
-						</div>
-
-						<!-- timeline item -->
-						<div class="timeline-container">
-							<div class="content">
-								<span class="time">2013 - 2009</span>
-								<h4 class="title">Honours Degree</h4>
-								<p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
-							</div>
-						</div>
-
-						<!-- main line -->
-						<span class="line"></span>
-
+				<div class="col-md-4">
+					<!-- service box -->
+					<div class="service-box">
+						<span class="icon icon-globe-alt square"></span>
+						<h4 class="mb-4 mt-4">Shopping List WebApp</h4>
+						<p class="mb-0">A simple shopping list app</p><br>
+						<a href="https://sparkly-druid-e1dc17.netlify.app/" class="btn btn-default btn-animation btn-animation--bordered btn-animation--dark" target=”_blank” >View Details</a>
 					</div>
-
+					<div class="spacer" data-height="50"></div>
 				</div>
 
-				<div class="col-md-6">
-					
-					<!-- responsive spacer -->
-					<div class="spacer d-md-none d-lg-none" data-height="100"></div>
-
-					<!-- timeline wrapper -->
-					<div class="timeline">
-
-						<!-- timeline item -->
-						<div class="timeline-container">
-							<div class="content">
-								<span class="time">2019 - Present</span>
-								<h4 class="title">Academic Degree</h4>
-								<p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
-							</div>
-						</div>
-
-						<!-- timeline item -->
-						<div class="timeline-container">
-							<div class="content">
-								<span class="time">2017 - 2013</span>
-								<h4 class="title">Bachelor’s Degree</h4>
-								<p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
-							</div>
-						</div>
-
-						<!-- timeline item -->
-						<div class="timeline-container">
-							<div class="content">
-								<span class="time">2013 - 2009</span>
-								<h4 class="title">Honours Degree</h4>
-								<p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
-							</div>
-						</div>
-
-						<!-- main line -->
-						<span class="line"></span>
-
+				<!-- <div class="col-md-4"> -->
+					<!-- service box -->
+					<!-- <div class="service-box">
+						<span class="icon icon-bulb square"></span>
+						<h4 class="mb-4 mt-4">UI/UX Design</h4>
+						<p class="mb-0">There are many variations of passages of Lorem Ipsum available</p>
 					</div>
-
+					<div class="spacer" data-height="50"></div>
 				</div>
+
+				<div class="col-md-4"> -->
+					<!-- service box -->
+					<!-- <div class="service-box">
+						<span class="icon icon-graph square"></span>
+						<h4 class="mb-4 mt-4">SEO</h4>
+						<p class="mb-0">There are many variations of passages of Lorem Ipsum available</p>
+					</div>
+					<div class="spacer" data-height="50"></div>
+				</div>
+
+				<div class="col-md-4"> -->
+					<!-- service box -->
+					<!-- <div class="service-box">
+						<span class="icon icon-direction square"></span>
+						<h4 class="mb-4 mt-4">Advertising</h4>
+						<p class="mb-0">There are many variations of passages of Lorem Ipsum available</p>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="50"></div>
+				</div>
+
+				<div class="col-md-4"> -->
+					<!-- service box -->
+					<!-- <div class="service-box">
+						<span class="icon icon-pencil square"></span>
+						<h4 class="mb-4 mt-4">Copy Write</h4>
+						<p class="mb-0">There are many variations of passages of Lorem Ipsum available</p>
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="50"></div>
+				</div>
+
+				<div class="col-md-4"> -->
+					<!-- service box -->
+					<!-- <div class="service-box">
+						<span class="icon icon-earphones square"></span>
+						<h4 class="mb-4 mt-4">Support</h4>
+						<p class="mb-0">There are many variations of passages of Lorem Ipsum available</p>
+					</div>
+				</div> -->
 
 			</div>
 
@@ -382,166 +823,22 @@
 		
 	</section>
 	
-	<!-- section works -->
-	<section id="works">
-
-		<div class="container">
-			
-			<!-- section title -->
-			<h2 class="section-title font-black text-uppercase">Works</h2>
-
-			<div class="spacer" data-height="90"></div>
-
-			<!-- portfolio filter (desktop) -->
-			<ul class="portfolio-filter list-inline">
-				<li class="current list-inline-item" data-filter="*">Everything</li>
-				<li class="list-inline-item" data-filter=".creative">Creative</li>
-				<li class="list-inline-item" data-filter=".art">Art</li>
-				<li class="list-inline-item" data-filter=".design">Design</li>
-				<li class="list-inline-item" data-filter=".branding">Branding</li>
-			</ul>
-			
-			<!-- portfolio filter (mobile) -->
-			<div class="pf-filter-wrapper">
-				<select class="portfolio-filter-mobile">
-					<option value="*">Everything</option>
-					<option value=".creative">Creative</option>
-					<option value=".art">Art</option>
-					<option value=".design">Design</option>
-					<option value=".branding">Branding</option>
-				</select>
-			</div>
-			
-			<!-- portolio wrapper -->
-			<div class="row portfolio-wrapper">
-				
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item art">
-					<a href="work-single.html">
-						<div class="portfolio-item">
-							<div class="details">
-								<h4 class="title">Creative Art</h4>
-								<span class="term">Art, Creative</span>
-							</div>
-							<div class="thumb">
-								<img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item creative design">
-					<a href="work-single.html">
-						<div class="portfolio-item">
-							<div class="details">
-								<h4 class="title">Apple USB</h4>
-								<span class="term">Creative, Design</span>
-							</div>
-							<div class="thumb">
-								<img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item branding">
-					<a href="work-single.html">
-						<div class="portfolio-item">
-							<div class="details">
-								<h4 class="title">Work Space</h4>
-								<span class="term">Branding</span>
-							</div>
-							<div class="thumb">
-								<img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item creative">
-					<a href="work-single.html">
-						<div class="portfolio-item">
-							<div class="details">
-								<h4 class="title">Creative Bulb</h4>
-								<span class="term">Creative</span>
-							</div>
-							<div class="thumb">
-								<img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item art branding">
-					<a href="work-single.html">
-						<div class="portfolio-item">
-							<div class="details">
-								<h4 class="title">iPhone 8</h4>
-								<span class="term">Art, Branding</span>
-							</div>
-							<div class="thumb">
-								<img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item creative design">
-					<a href="work-single.html">
-						<div class="portfolio-item">
-							<div class="details">
-								<h4 class="title">Minimal Art</h4>
-								<span class="term">Design, Creative</span>
-							</div>
-							<div class="thumb">
-								<img src="https://via.placeholder.com/365x260/9013FE/FFF" alt="Portfolio-title" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-			</div>
-			
-			<!-- more button -->
-			<div class="load-more text-center mt-4">
-				<a href="javascript:" class="btn btn-default btn-animation"><i class="fas fa-spinner"></i> Load more</a>
-				<!-- numbered pagination (hidden for infinite scroll) -->
-				<ul class="portfolio-pagination list-inline d-none">
-					<li class="list-inline-item">1</li>
-					<li class="list-inline-item"><a href="works-2.html">2</a></li>
-				</ul>
-			</div>
-
-		</div>
-
-	</section>
 	
 	<!-- section facts -->
-	<section id="facts">
+	<!-- <section id="facts">
 
-		<div class="container">
+		<div class="container"> -->
 			
 			<!-- section title -->
-			<h2 class="section-title font-black text-uppercase">Fun Facts</h2>
+			<!-- <h2 class="section-title font-black text-uppercase">Fun Facts</h2>
 
 			<div class="spacer" data-height="100"></div>
 			
 			<div class="row">
 				
-				<div class="col-md-3">
+				<div class="col-md-3"> -->
 					<!-- fact item -->
-					<div class="fact-item text-center">
+					<!-- <div class="fact-item text-center">
 						<span class="icon icon-layers simple"></span>
 						<h3 class="mb-2 mt-2 number"><em class="count">2400</em></h3>
 						<p class="mb-0">Projects Completed</p>
@@ -549,9 +846,9 @@
 					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3"> -->
 					<!-- fact item -->
-					<div class="fact-item text-center">
+					<!-- <div class="fact-item text-center">
 						<span class="icon icon-cup simple"></span>
 						<h3 class="mb-2 mt-2 number"><em class="count">1300</em></h3>
 						<p class="mb-0">Cup of coffee</p>
@@ -559,9 +856,9 @@
 					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3"> -->
 					<!-- fact item -->
-					<div class="fact-item text-center">
+					<!-- <div class="fact-item text-center">
 						<span class="icon icon-clock simple"></span>
 						<h3 class="mb-2 mt-2 number"><em class="count">5700</em></h3>
 						<p class="mb-0">Hours worked</p>
@@ -569,9 +866,9 @@
 					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3"> -->
 					<!-- fact item -->
-					<div class="fact-item text-center">
+					<!-- <div class="fact-item text-center">
 						<span class="icon icon-trophy simple"></span>
 						<h3 class="mb-2 mt-2 number"><em class="count">640</em></h3>
 						<p class="mb-0">Awards won</p>
@@ -582,23 +879,23 @@
 
 		</div>
 
-	</section>
+	</section> -->
 	
 	<!-- section prices -->
-	<section id="prices">
+	<!-- <section id="prices">
 
-		<div class="container">
+		<div class="container"> -->
 			
 			<!-- section title -->
-			<h2 class="section-title font-black text-uppercase">Prices</h2>
+			<!-- <h2 class="section-title font-black text-uppercase">Prices</h2>
 
 			<div class="spacer" data-height="100"></div>
 			
 			<div class="row">
 				
-				<div class="col-md-4 pr-md-0">
+				<div class="col-md-4 pr-md-0"> -->
 					<!-- price item -->
-					<div class="price-item">
+					<!-- <div class="price-item">
 						<span class="plan">Regular</span>
 						<h3 class="price"><em>$</em>14</h3>
 						<ul class="styled">
@@ -611,9 +908,9 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 px-md-0 my-4 my-md-0">
+				<div class="col-md-4 px-md-0 my-4 my-md-0"> -->
 					<!-- price item recommended-->
-					<div class="price-item best">
+					<!-- <div class="price-item best">
 						<span class="plan">Premium</span>
 						<h3 class="price"><em>$</em>29</h3>
 						<ul class="styled">
@@ -626,9 +923,9 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 pl-md-0">
+				<div class="col-md-4 pl-md-0"> -->
 					<!-- price item -->
-					<div class="price-item">
+					<!-- <div class="price-item">
 						<span class="plan">Professional</span>
 						<h3 class="price"><em>$</em>43</h3>
 						<ul class="styled">
@@ -645,64 +942,64 @@
 
 		</div>
 
-	</section>
+	</section> -->
 	
 	<!-- section testimonials -->
-	<section id="testimonials">
+	<!-- <section id="testimonials">
 
-		<div class="container">
+		<div class="container"> -->
 			
 			<!-- section title -->
-			<h2 class="section-title font-black text-uppercase">Testimonials</h2>
+			<!-- <h2 class="section-title font-black text-uppercase">Testimonials</h2>
 
-			<div class="spacer" data-height="80"></div>
+			<div class="spacer" data-height="80"></div> -->
 			
 			<!-- testimonials wrapper -->
-			<div class="testimonials-wrapper">
+			<!-- <div class="testimonials-wrapper"> -->
 				
 				<!-- testimonial item -->
-				<div class="testimonial-item text-center mx-auto">
+				<!-- <div class="testimonial-item text-center mx-auto">
 					<span class="symbol">“</span>
 					<div class="thumb mb-4 mx-auto">
 						<img src="https://via.placeholder.com/80x80/9013FE/FFF" alt="customer-name" />						
 					</div>
 					<p class="mb-0">I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck!</p>
 					<h4 class="mt-4 mb-0">John Doe</h4>
-				</div>
+				</div> -->
 				
 				<!-- testimonial item -->
-				<div class="testimonial-item text-center mx-auto">
+				<!-- <div class="testimonial-item text-center mx-auto">
 					<span class="symbol">“</span>
 					<div class="thumb mb-4 mx-auto">
 						<img src="https://via.placeholder.com/80x80/9013FE/FFF" alt="customer-name" />						
 					</div>
 					<p class="mb-0">I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck!</p>
 					<h4 class="mt-4 mb-0">John Doe</h4>
-				</div>
+				</div> -->
 				
 				<!-- testimonial item -->
-				<div class="testimonial-item text-center mx-auto">
+				<!-- <div class="testimonial-item text-center mx-auto">
 					<span class="symbol">“</span>
 					<div class="thumb mb-4 mx-auto">
 						<img src="https://via.placeholder.com/80x80/9013FE/FFF" alt="customer-name" />						
 					</div>
 					<p class="mb-0">I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck!</p>
 					<h4 class="mt-4 mb-0">John Doe</h4>
-				</div>
+				</div> -->
 
-			</div>
+			<!-- </div>
 
 		</div>
 
-	</section>
+	</section> -->
 	
 	<!-- section blog -->
-	<section id="blog">
+	<!-- <section id="blog">
 
-		<div class="container">
+		<div class="container"> -->
 			
 			<!-- section title -->
-			<h2 class="section-title font-black text-uppercase float-left">Latest Posts</h2>
+			<!-- <h2 class="section-title font-black text-uppercase float-left">Latest Posts</h2>
 
 			<a href="#" class="text-link float-md-right float-none mt-3 mt-md-0 d-block">View All »</a>
 
@@ -710,9 +1007,9 @@
 			
 			<div class="row blog-wrapper">
 				
-				<div class="col-md-4">
+				<div class="col-md-4"> -->
 					<!-- blog item -->
-					<div class="blog-item">
+					<!-- <div class="blog-item">
 						<div class="thumb">
 							<a href="#">
 								<span class="category">Thoughts</span>
@@ -729,9 +1026,9 @@
 					</div>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4"> -->
 					<!-- blog item -->
-					<div class="blog-item">
+					<!-- <div class="blog-item">
 						<div class="thumb">
 							<a href="#">
 								<span class="category">Blog</span>
@@ -748,9 +1045,9 @@
 					</div>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4"> -->
 					<!-- blog item -->
-					<div class="blog-item">
+					<!-- <div class="blog-item">
 						<div class="thumb">
 							<a href="#">
 								<span class="category">Tech</span>
@@ -764,67 +1061,67 @@
 							<li class="list-inline-item">08 January, 2019</li>
 							<li class="list-inline-item">Mugi Doe</li>
 						</ul>
-					</div>
-				</div>
+					</div> -->
+				<!-- </div>
 
 			</div>
 
 		</div>
 
-	</section>
+	</section> -->
 	
 	<!-- section clients -->
-	<section id="clients">
+	<!-- <section id="clients">
 
-		<div class="container">
+		<div class="container"> -->
 			
 			<!-- section title -->
-			<h2 class="section-title font-black text-uppercase">Clients</h2>
+			<!-- <h2 class="section-title font-black text-uppercase">Clients</h2>
 
-			<div class="spacer" data-height="100"></div>
+			<div class="spacer" data-height="100"></div> -->
 			
 			<!-- clients wrapper -->
-			<div class="clients-wrapper row">
+			<!-- <div class="clients-wrapper row">
 				
-				<div class="col-md-3">
+				<div class="col-md-3"> -->
 					<!-- client item -->
-					<div class="client-item">
+					<!-- <div class="client-item">
 						<div class="inner">
 							<img src="https://via.placeholder.com/145x30/9013FE/FFF" alt="client-name" />
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3"> -->
 					<!-- client item -->
-					<div class="client-item">
+					<!-- <div class="client-item">
 						<div class="inner">
 							<img src="https://via.placeholder.com/145x30/9013FE/FFF" alt="client-name" />
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3"> -->
 					<!-- client item -->
-					<div class="client-item">
+					<!-- <div class="client-item">
 						<div class="inner">
 							<img src="https://via.placeholder.com/145x30/9013FE/FFF" alt="client-name" />
 						</div>
 					</div>
 				</div>
 				
-				<div class="col-md-3">
+				<div class="col-md-3"> -->
 					<!-- client item -->
-					<div class="client-item">
+					<!-- <div class="client-item">
 						<div class="inner">
 							<img src="https://via.placeholder.com/145x30/9013FE/FFF" alt="client-name" />
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3"> -->
 					<!-- client item -->
-					<div class="client-item">
+					<!-- <div class="client-item">
 						<div class="inner">
 							<img src="https://via.placeholder.com/145x30/9013FE/FFF" alt="client-name" />
 						</div>
@@ -835,7 +1132,7 @@
 
 		</div>
 
-	</section>
+	</section> -->
 	
 	<!-- section contact -->
 	<section id="contact">
@@ -854,7 +1151,7 @@
 					<div class="text-center">
 						<span class="icon icon-phone simple"></span>
 						<h4 class="mb-2 mt-2 number">Call us</h4>
-						<p class="mb-0">+976 9886-4334</p>
+						<p class="mb-0">027 285 0249</p>
 					</div>
 					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 				</div>
@@ -863,7 +1160,7 @@
 					<div class="text-center">
 						<span class="icon icon-envelope-open simple"></span>
 						<h4 class="mb-2 mt-2 number">Email us</h4>
-						<p class="mb-0">hello@domain.website</p>
+						<p class="mb-0">brunoreis.nz@gmail.com</p>
 					</div>
 					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 				</div>
@@ -872,23 +1169,23 @@
 					<div class="text-center">
 						<span class="icon icon-location-pin simple"></span>
 						<h4 class="mb-2 mt-2 number">Visit us</h4>
-						<p class="mb-0">West Palm Beach, 4669  Travis Street</p>
+						<p class="mb-0">15b Main Road, Titahi Bay, Well</p>
 					</div>
 				</div>
 
 			</div>
 
-			<div class="spacer" data-height="70"></div>
+			<!-- <div class="spacer" data-height="70"></div> -->
 
 			<!-- Contact Form -->
-			<form id="contact-form" class="contact-form mt-6" method="post" action="form/contact.php">
+			<!--<form id="contact-form" class="contact-form mt-6" method="post" action="form/contact.php">
 				
 				<div class="messages"></div>
 				
 				<div class="row">
 					<div class="column col-md-4">
 						<!-- Name input -->
-						<div class="form-group">
+						<!--<div class="form-group">
 							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your name" required="required" data-error="Name is required.">
 							<div class="help-block with-errors"></div>
 						</div>
@@ -896,7 +1193,7 @@
 					
 					<div class="column col-md-4">
 						<!-- Email input -->
-						<div class="form-group">
+						<!--<div class="form-group">
 							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email is required.">
 							<div class="help-block with-errors"></div>
 						</div>
@@ -904,7 +1201,7 @@
 
 					<div class="column col-md-4">
 						<!-- Email input -->
-						<div class="form-group">
+						<!--<div class="form-group">
 							<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Subject" required="required" data-error="Subject is required.">
 							<div class="help-block with-errors"></div>
 						</div>
@@ -912,7 +1209,7 @@
 			
 					<div class="column col-md-12">
 						<!-- Message textarea -->
-						<div class="form-group">
+						<!--<div class="form-group">
 							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required" data-error="Message is required."></textarea>
 							<div class="help-block with-errors"></div>
 						</div>
@@ -921,7 +1218,7 @@
 
 				<button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default btn-full btn-animation">Submit Message</button><!-- Send Button -->
 
-			</form>
+			<!--</form>
 			<!-- Contact Form end -->
 
 		</div>
